@@ -1,0 +1,70 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.education div h5 {
+    color: #4db5ff;
+}
+
+.education div p {
+    margin: 5px 0px;
+}
+
+.Resume-icon-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    gap: 40px;
+    padding: 10px 30px;
+}
+
+.Resume-icon {
+    width: 150px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.Resume-icon h4 {
+    margin: 0px;
+}
+
+.Resume-icon:hover {
+    background-color: #2c2c6c;
+    border-radius: 15px;
+}
+
+.education h3 {
+    color: #4db5ff;
+    text-align: center;
+    font-size: 36px;
+}
+
+@media (max-width:1025px) {
+    .Resume-icon-div {
+        gap: 20px;
+    }
+
+    .Resume-icon {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width:430px) {
+    .Resume-icon-div {
+        gap: 10px;
+        padding: 0px;
+    }
+
+    .Resume-icon {
+        width: 120px;
+    }
+}

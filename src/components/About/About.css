@@ -1,0 +1,39 @@
+.Title h6 {
+    color: #a5a5b1;
+    margin: 0px;
+}
+
+.Title h1 {
+    color: #4db5ff;
+}
+
+.img2 {
+    height: 80%;
+}
+
+.about-box {
+    width: 48%;
+    background-color: #4db5ff;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.about-box:hover {
+    background-color: #ffffff;
+}
+
+@media (max-width:770px) {
+    .img2 {
+        height: 100%;
+    }
+}
+
+@media (max-width:430px) {
+    .img2 {
+        height: 100%;
+    }
+    .about-box {
+        width: 100%;
+    }
+}

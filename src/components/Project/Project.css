@@ -1,0 +1,33 @@
+.p-maindiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.github {
+    background-color: #4db5ff;
+}
+
+.github:hover {
+    background-color: white;
+    color: black;
+}
+
+.cardcolor {
+    background-color: #2c2c6c;
+    border-radius: 10px;
+
+}
+
+.card-img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.white1 {
+    color: black;
+}

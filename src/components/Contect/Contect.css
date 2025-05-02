@@ -1,0 +1,72 @@
+.content-maindiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-box{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.c-maindiv .c-title {
+    text-align: start;
+    margin-left: 120px;
+}
+
+.Con-Main {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
+.c-haeding{
+    text-align: start;
+}
+.C-Form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.C-Form input {
+    width: 29vw;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgb(125, 118, 118);
+    border-radius: 10px;
+    color: #fff;
+    padding-left: 14px;
+    margin-top: 10px;
+}
+
+.Con-Main textarea {
+    height: 100px;
+    background: transparent;
+    border: 2px solid rgb(125, 118, 118);
+    border-radius: 10px;
+    padding-left: 16px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.button {
+    background: transparent;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.c-btn {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.c-btn:hover {
+    background-color: #4db5ff;
+    color: black;
+}
