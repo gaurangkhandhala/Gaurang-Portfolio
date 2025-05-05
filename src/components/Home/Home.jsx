@@ -1,7 +1,7 @@
 
 import React from 'react'
 import '../Home/Home.css'
-import img1 from '../../assets/g1.jpg'
+import img1 from '../../assets/photo.jpg'
 import CV from '../../assets/gaurang.pdf'
 
 import { useNavigate } from 'react-router-dom'
